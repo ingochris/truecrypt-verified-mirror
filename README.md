@@ -2,6 +2,8 @@
 
 CHECK file_digests.txt AFTER DOWNLOADING FILES.
 
+BUILDING FROM SOURCE:
+
 Contents
 
 I. Windows Requirements for Building TrueCrypt for Windows Instructions for Building TrueCrypt for Windows
