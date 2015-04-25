@@ -3,22 +3,8 @@
 CHECK file_digests.txt AFTER DOWNLOADING FILES.
 
 BUILDING FROM SOURCE:
-
-Contents
-
-I. Windows Requirements for Building TrueCrypt for Windows Instructions for Building TrueCrypt for Windows
-
-II. Linux and Mac OS X Requirements for Building TrueCrypt for Linux and Mac OS X Instructions for Building TrueCrypt for Linux and Mac OS X
-
-III. FreeBSD and OpenSolaris
-
-IV. Third-Party Developers (Contributors)
-
-V. Legal Information
-
-VI. Further Information
 I. Windows
-Requirements for Building TrueCrypt for Windows:
+Reqs:
 
     Microsoft Visual C++ 2008 SP1 (Professional Edition or compatible)
     Microsoft Visual C++ 1.52 (available from MSDN Subscriber Downloads)
@@ -49,7 +35,7 @@ Note: The 16-bit installer MSVC15\SETUP.EXE cannot be run on 64-bit Windows, but
 
 7) If successful, there should be newly built TrueCrypt binaries in the 'Release' folder.
 II. Linux and Mac OS X
-Requirements for Building TrueCrypt for Linux and Mac OS X:
+Reqs
 
     GNU Make
     GNU C++ Compiler 4.0 or compatible
@@ -85,25 +71,3 @@ By default, a universal executable supporting both graphical and text user inter
    $ make NOGUI=1 WX_ROOT=/usr/src/wxWidgets wxbuild
    $ make NOGUI=1 WXSTATIC=1
 
-III. FreeBSD and OpenSolaris
-
-Support status for FreeBSD: http://www.truecrypt.org/misc/freebsd Support status for OpenSolaris: http://www.truecrypt.org/misc/opensolaris
-IV. Third-Party Developers (Contributors)
-
-If you intend to implement a feature, please contact us first to make sure:
-
-1) That the feature has not been implemented (we may have already implemented it, but haven't released the code yet). 2) That the feature is acceptable. 3) Whether we need help of third-party developers with implementing the feature.
-
-Information on how to contact us can be found at: http://www.truecrypt.org/contact
-V. Legal Information
-Copyright Information
-
-This software as a whole: Copyright (c) 2012 TrueCrypt Developers Association. All rights reserved.
-
-Portions of this software: Copyright (c) 2003-2012 TrueCrypt Developers Association. All rights reserved. Copyright (c) 1998-2000 Paul Le Roux. All rights reserved. Copyright (c) 1998-2008 Brian Gladman, Worcester, UK. All rights reserved. Copyright (c) 2002-2004 Mark Adler. All rights reserved. For more information, please see the legal notices attached to parts of the source code.
-Trademark Information
-
-Any trademarks contained in the source code, binaries, and/or in the documentation, are the sole property of their respective owners.
-VI. Further Information
-
-http://www.truecrypt.org
